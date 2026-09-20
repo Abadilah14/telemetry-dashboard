@@ -20,7 +20,7 @@ def read_telemetry() -> pd.DataFrame:
 	return data[TELEMETRY_COLUMNS]
 
 
-st.set_page_config(page_title="EEPISAT Telemetry", layout="wide")
+st.set_page_config(page_title="Telemetry", layout="wide")
 st.title("Telemetry Dashboard")
 st.caption("CSV stream dipantau otomatis setiap detik")
 
